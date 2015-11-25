@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.11.14)  25 NOV 2015 14:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.11.14)  25 NOV 2015 15:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1052,17 +1052,17 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 2.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 3.
+(babel)             in language  on input line 9.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 3.
+(babel)             in language  on input line 9.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 4.
+(babel)             in language  on input line 10.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 4.
+(babel)             in language  on input line 10.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 5.
+(babel)             in language  on input line 11.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 5.
+(babel)             in language  on input line 11.
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 13.
 Package babel Info: Redefining ngerman shorthand "|
@@ -1104,7 +1104,7 @@ l/texlive/2015/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2
 ist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/
 type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/
 times/utmri8a.pfb>
-Output written on output/ana-lsg.pdf (10 pages, 106925 bytes).
+Output written on output/ana-lsg.pdf (10 pages, 108125 bytes).
 PDF statistics:
  265 PDF objects out of 1000 (max. 8388607)
  239 compressed objects within 3 object streams

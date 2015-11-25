@@ -27,14 +27,14 @@
       Induktionsvoraussetzung: \begin{align*}&(1+x)^{n} \geq 1+nx\qquad \forall n \in \mathbb{N}\end{align*}
       Induktionsschritt: $n\rightarrow n+1$ \\
       Zu Zeigen ist \begin{align*}&(1+x)^{(n+1)} \geq 1+(n+1)x\end{align*}
-      Es gilt: \begin{align*}(1+x)^{(n+1)}& =(1+x)^n\cdot \underbrace{(1+x)}_{\geq0}\\ &\underset{IV}{\geq}(1+nx)(1+x)\\ &=1+x+nx+nx^2\\ &=1+(n+1)x+\underbrace{(nx^2)}_{\geq0}\\ &\geq 1+(n+1)x\qed\end{align*}
+      Es gilt: \begin{align*}(1+x)^{(n+1)}& =(1+x)^n\cdot \underbrace{(1+x)}_{\geq0}\\ &\overset{IV}{\geq}(1+nx)(1+x)\\ &=1+x+nx+nx^2\\ &=1+(n+1)x+\underbrace{(nx^2)}_{\geq0}\\ &\geq 1+(n+1)x\qed\end{align*}
       \item
       \textit{Bemerkung:} Dies ist eine Erweiterung der gaußschem Summenformel.\\
       Induktionsanfang: $n=1$ \begin{align*}&\sum_{k=1}^{1}k^2=1^2=\frac{1\cdot (1+1)(2\cdot 1+2)}{6}=\frac{6}{6}=1\end{align*}
       Induktionsvoraussetzung: \begin{align*}&\sum_{k=1}^{n}k^2=\frac{n(n+1)(2n+2)}{6}\end{align*}
       Induktionsschritt: $n\rightarrow n+1$ \\
       Zu Zeigen ist \begin{align*}&\sum_{k=1}^{n+1}k^2=\frac{(n+1)(n+2)(2n+3)}{6}\end{align*}
-      Es gilt: \begin{align*}\sum_{k=1}^{n+1}k^2& =(n+1)^2+\sum_{k=1}^{n}k^2\\ &\underset{IV}{=}(n+1)^2+\frac{n(n+1)(2n+1)}{6}\\ &=\frac{6(n+1)^2+n(n+1)(2n+1)}{6}\\ &=\frac{(n+1)(n+2)(2n+3)}{6}\qed\end{align*}
+      Es gilt: \begin{align*}\sum_{k=1}^{n+1}k^2& =(n+1)^2+\sum_{k=1}^{n}k^2\\ &\overset{IV}{=}(n+1)^2+\frac{n(n+1)(2n+1)}{6}\\ &=\frac{6(n+1)^2+n(n+1)(2n+1)}{6}\\ &=\frac{(n+1)(n+2)(2n+3)}{6}\qed\end{align*}
     \end{enumerate}
 
 \section{Aufgabe 3}
@@ -49,19 +49,19 @@ Laut Vorlesung gilt:
   \item $m\cdot n'=m\cdot n+m \qquad \forall m,n\in\mathbb{N}$
   \item $m'\cdot n=m\cdot n+n \qquad \forall m,n\in\mathbb{N}$
 \end{enumerate}
-\textbf{Zeige i)}\begin{align*}&n\cdot 1=1\cdot n\underset{a)}{=}n\end{align*}
+\textbf{Zeige i)}\begin{align*}&n\cdot 1=1\cdot n\overset{a)}{=}n\end{align*}
 Induktionsanfang: $n=1$ \begin{align*}&1\cdot 1=1\end{align*}
 Induktionsvoraussetzung: \begin{align*}&n\cdot 1=1\cdot n=n\end{align*}
 Induktionsschritt: $n\rightarrow n+1$ \\
 Zu Zeigen ist \begin{align*}&(n+1)\cdot 1=1\cdot (n+1)=n+1\end{align*}
-Es gilt: \begin{align*}(n+1)\cdot 1&=n'\cdot 1\\ &\underset{c)}{=}n\cdot 1+1\\ &\underset{IV}{=}n+1\qed\end{align*}
+Es gilt: \begin{align*}(n+1)\cdot 1&=n'\cdot 1\\ &\overset{c)}{=}n\cdot 1+1\\ &\overset{IV}{=}n+1\qed\end{align*}
 \textbf{Zeige nun ii)}\begin{align*}&n\cdot m=m\cdot n\qquad\forall m,n\in\mathbb{N}\end{align*}
 Induktion über $m$.\\
-Induktionsanfang: $m=1$ \begin{align*}&n\cdot 1\underset{i)}{=}1\cdot n\end{align*}
+Induktionsanfang: $m=1$ \begin{align*}&n\cdot 1\overset{i)}{=}1\cdot n\end{align*}
 Induktionsvoraussetzung: \begin{align*}&n\cdot m=m\cdot n\end{align*}
 Induktionsschritt: $m\rightarrow m+1$ \\
 Zu Zeigen ist \begin{align*}&n\cdot (m+1)=(m+1)\cdot n\end{align*}
-Es gilt: \begin{align*}(m+1)\cdot n&=m'\cdot n\\ &\underset{c)}{=}m\cdot n+n\\ &\underset{IV}{=}n\cdot m+n\\ &\underset{b)}{=}n\cdot m'\\ &=n\cdot (m+1)\qed\end{align*}
+Es gilt: \begin{align*}(m+1)\cdot n&=m'\cdot n\\ &\overset{c)}{=}m\cdot n+n\\ &\overset{IV}{=}n\cdot m+n\\ &\overset{b)}{=}n\cdot m'\\ &=n\cdot (m+1)\qed\end{align*}
 
 \section{Aufgabe 4}
 Finde Tripel $(M,e,S)$.\\\textit{Bemerkung:} $M \longleftarrow$ Mengensystem, $e \longleftarrow$ neutrales Element, $S \longleftarrow$ Abbildungsvorschrift.\\
