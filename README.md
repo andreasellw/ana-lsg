@@ -19,3 +19,7 @@ Mit letzterem kann man einfach ein Dummy-Dokument mit
 \Blinddocument
 ```
 erzeugen.
+
+### Geladene Packete
+* [amsmath](https://www.ctan.org/pkg/amsmath)
+
