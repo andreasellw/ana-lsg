@@ -1,0 +1,3 @@
+\newcommand{\leadingzero}[1]{\ifnum #1<10 0\the#1\else\the#1\fi}            % führende Null
+\newcommand{\ddmmyyyy}{\leadingzero{\day}.\leadingzero{\month}.\the\year}   % DD.MM.YYYY
+\RedeclareSectionCommand[beforeskip=0pt,afterskip=1\baselineskip plus .1\baselineskip minus .167\baselineskip]{chapter} % Kein großer Abstand vor Chapter

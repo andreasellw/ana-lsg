@@ -1,0 +1,38 @@
+\chapter{Blatt 02}
+\section{Aufgabe 1}
+\begin{enumerate}[label={\alph*)}]
+  \item \textit{Bemerkung:} $\Leftrightarrow$ $\longleftarrow$ genau, wenn dann \\
+  $a\sim_{a}b \Leftrightarrow r=\widetilde{r}$, wobei $a=m\cdot 7+r$ und $b=\widetilde{m}\cdot 7+\widetilde{r}$ ($m, \widetilde{m}, r, \widetilde{r}\in\mathbb{N}_{0}$)
+  \begin{itemize}[label=\textbullet]
+    \item \textbf{Reflexivität:} ist offensichtlich.
+    \item \textbf{Symmetrie:}  ist offensichtlich.
+    \item \textbf{Transitivität:} Sei dazu $a\sim b \wedge b\sim c$. Dann gilt
+    \begin{align*}
+       &a=m\cdot 7+r \textnormal{ und } b=k\cdot 7+\widetilde{r}&\\
+       &b=n\cdot 7+r \textnormal{ und } c=l\cdot 7+\widetilde{r}
+    \end{align*}
+    Zu Zeigen ist $r=\widetilde{r}$.\\
+    Wäre $r\neq \widetilde{r}$, dann wäre wegen $k=n$ auch $b\neq b$. Fehler!\\
+    Also $r=\widetilde{r}$.
+  \end{itemize}
+  Es handelt sich um eine Äquivalenzrelation, denn die Relation $\sim_{a}$ ist reflexiv, symmetrisch und transitiv.
+  \item
+  $a\sim_{b}b \Leftrightarrow a^2-b^2=k\cdot 7$ ($a, b, k \in\mathbb{Z}$)
+  \begin{itemize}[label=\textbullet]
+    \item \textbf{Reflexivität:} $a^2-a^2=0\cdot 7$ \checkmark
+    \item \textbf{Symmetrie:} Sei dazu $a\sim b$. Dann $\exists k\in \mathbb{Z}$:
+    \begin{align*}
+      &a^2-b^2=k\cdot 7 \Leftrightarrow b^2-a^2=-k\cdot 7&
+    \end{align*}
+    Da $-k \in \mathbb{Z}$ folgt $b\sim a$.
+    \item \textbf{Transitivität:} Sei $a\sim b$ und $b\sim c$. Dann $\exists k,l \in \mathbb{Z}$:
+    \begin{align*}
+      & a^2-b^2=k\cdot 7 \textnormal{ }\wedge\textnormal{ } b^2-c^2=l\cdot 7 \textnormal{ \checkmark}&\\
+      \Rightarrow &a^2-c^2=k\cdot 7 + b^2+l\cdot 7 -b^2=\underbrace{(k+l)}_{\in\mathbb{Z}}\cdot 7 \textnormal{ \checkmark}
+    \end{align*}
+  \end{itemize}
+  Es handelt sich um eine Äquivalenzrelation, denn die Relation $\sim_{b}$ ist reflexiv, symmetrisch und transitiv.
+\end{enumerate}
+\section{Aufgabe 2}
+\section{Aufgabe 3}
+\section{Aufgabe 4}

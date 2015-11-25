@@ -1,0 +1,90 @@
+\chapter{Blatt 01}
+\section{Aufgabe 1}
+    \begin{enumerate}[label={\alph*)}]
+      \item
+      \begin{flalign*}
+        \prod_{i=1}^{2}(\sum_{j=1}^{3}(ij))& =(\sum_{j=1}^{3}(1j))\cdot (\sum_{j=1}^{3}(2j))&\\& =((1\cdot 1)+(1\cdot 2)+(1\cdot 3))\cdot ((2\cdot 1)+(2\cdot 2)+(3\cdot 2))&\\& =(1+2+3)\cdot (2+4+6)&\\& =6\cdot 12&\\& =72
+      \end{flalign*}
+      \item Die Umbennung der Variablen $i, j$ aus a) zu $k, m$ ändert nichts am Rechenweg und somit auch nicht das Ergebnis. Das Ergebnis ist wieder $72$.
+      \item
+      \begin{flalign*}
+        \sum_{m=1}^{3}(\prod_{k=1}^{2}(km))& =(\prod_{k=1}^{2}(k1))+(\prod_{k=1}^{2}(k2))+(\prod_{k=1}^{2}(k3))&\\& =(1\cdot 1)\cdot (2\cdot 1)+(1\cdot 2)\cdot (2\cdot 2)+(1\cdot 3)\cdot (2\cdot 3)&\\& =(2+8+18)&\\& =28
+      \end{flalign*}
+      \item
+      \begin{flalign*}
+        \prod_{k=1}^{2}(k\sum_{m=1}^{3}(m))& =(1\sum_{m=1}^{3}(m))\cdot (2\sum_{m=1}^{3}(m))&\\& =(1\cdot (1+2+3))\cdot (2\cdot (1+2+3))&\\& =(1\cdot 6)\cdot (2\cdot 6)&\\& =72
+      \end{flalign*}
+      \item
+      \begin{flalign*}
+        \sum_{m=1}^{3}(m\prod_{k=1}^{2}(k))& =(1\prod_{k=1}^{2}(k))+(2\prod_{k=1}^{2}(k))+(3\prod_{k=1}^{2}(k))&\\& =(1\cdot (1\cdot 2))+(2\cdot (1\cdot 2))+(3\cdot (1\cdot 2))&\\& =2+4+6&\\& =12
+      \end{flalign*}
+    \end{enumerate}
+\section{Aufgabe 2}
+    \begin{enumerate}[label={\alph*)}]
+      \item
+      \textit{Bemerkung:} Bernoulli\\
+      Induktionsanfang: $n=1$ \begin{align*}&(1+x)^{1}=(1+x) \geq 1+1x\end{align*}
+      Induktionsvoraussetzung: \begin{align*}&(1+x)^{n} \geq 1+nx\qquad \forall n \in \mathbb{N}\end{align*}
+      Induktionsschritt: $n\rightarrow n+1$ \\
+      Zu Zeigen ist \begin{align*}&(1+x)^{(n+1)} \geq 1+(n+1)x\end{align*}
+      Es gilt: \begin{align*}(1+x)^{(n+1)}& =(1+x)^n\cdot \underbrace{(1+x)}_{\geq0}\\ &\underset{IV}{\geq}(1+nx)(1+x)\\ &=1+x+nx+nx^2\\ &=1+(n+1)x+\underbrace{(nx^2)}_{\geq0}\\ &\geq 1+(n+1)x\qed\end{align*}
+      \item
+      \textit{Bemerkung:} Dies ist eine Erweiterung der gaußschem Summenformel.\\
+      Induktionsanfang: $n=1$ \begin{align*}&\sum_{k=1}^{1}k^2=1^2=\frac{1\cdot (1+1)(2\cdot 1+2)}{6}=\frac{6}{6}=1\end{align*}
+      Induktionsvoraussetzung: \begin{align*}&\sum_{k=1}^{n}k^2=\frac{n(n+1)(2n+2)}{6}\end{align*}
+      Induktionsschritt: $n\rightarrow n+1$ \\
+      Zu Zeigen ist \begin{align*}&\sum_{k=1}^{n+1}k^2=\frac{(n+1)(n+2)(2n+3)}{6}\end{align*}
+      Es gilt: \begin{align*}\sum_{k=1}^{n+1}k^2& =(n+1)^2+\sum_{k=1}^{n}k^2\\ &\underset{IV}{=}(n+1)^2+\frac{n(n+1)(2n+1)}{6}\\ &=\frac{6(n+1)^2+n(n+1)(2n+1)}{6}\\ &=\frac{(n+1)(n+2)(2n+3)}{6}\qed\end{align*}
+    \end{enumerate}
+
+\section{Aufgabe 3}
+\textit{Bemerkung:} Einfach immer: Laut Vorlesung sieht man leicht, dass ... gilt.
+\begin{enumerate}[label={\roman*)}]
+  \item $1\cdot n = n\cdot 1$
+  \item $n\cdot m =m\cdot n$
+\end{enumerate}
+Laut Vorlesung gilt:
+\begin{enumerate}[label={\alph*)}]
+  \item $1\cdot n=n \qquad \forall n\in\mathbb{N}$
+  \item $m\cdot n'=m\cdot n+m \qquad \forall m,n\in\mathbb{N}$
+  \item $m'\cdot n=m\cdot n+n \qquad \forall m,n\in\mathbb{N}$
+\end{enumerate}
+\textbf{Zeige i)}\begin{align*}&n\cdot 1=1\cdot n\underset{a)}{=}n\end{align*}
+Induktionsanfang: $n=1$ \begin{align*}&1\cdot 1=1\end{align*}
+Induktionsvoraussetzung: \begin{align*}&n\cdot 1=1\cdot n=n\end{align*}
+Induktionsschritt: $n\rightarrow n+1$ \\
+Zu Zeigen ist \begin{align*}&(n+1)\cdot 1=1\cdot (n+1)=n+1\end{align*}
+Es gilt: \begin{align*}(n+1)\cdot 1&=n'\cdot 1\\ &\underset{c)}{=}n\cdot 1+1\\ &\underset{IV}{=}n+1\qed\end{align*}
+\textbf{Zeige nun ii)}\begin{align*}&n\cdot m=m\cdot n\qquad\forall m,n\in\mathbb{N}\end{align*}
+Induktion über $m$.\\
+Induktionsanfang: $m=1$ \begin{align*}&n\cdot 1\underset{i)}{=}1\cdot n\end{align*}
+Induktionsvoraussetzung: \begin{align*}&n\cdot m=m\cdot n\end{align*}
+Induktionsschritt: $m\rightarrow m+1$ \\
+Zu Zeigen ist \begin{align*}&n\cdot (m+1)=(m+1)\cdot n\end{align*}
+Es gilt: \begin{align*}(m+1)\cdot n&=m'\cdot n\\ &\underset{c)}{=}m\cdot n+n\\ &\underset{IV}{=}n\cdot m+n\\ &\underset{b)}{=}n\cdot m'\\ &=n\cdot (m+1)\qed\end{align*}
+
+\section{Aufgabe 4}
+Finde Tripel $(M,e,S)$.\\\textit{Bemerkung:} $M \longleftarrow$ Mengensystem, $e \longleftarrow$ neutrales Element, $S \longleftarrow$ Abbildungsvorschrift.\\
+\begin{enumerate}[label={\alph*)}]
+  \item i), ii) und iv) werden erfüllt. Das heißt entweder $k\in M$ existieren, sodass $S(k)=e$ gilt [iii) verletzt, da $1$ kein Nachfolger einer $\mathbb{N}$-Zahl ist], oder $\exists X$, $e\in X$ und $k\in X\cap M$ gilt $S(k)\in X$ \underline{aber} $M\not\subset X$ [v) verletzt].\\
+Beispiel:\begin{align*}&M=\{e,\star\}\\&S(e)=\star\\&S(\star)=e\end{align*}
+  \begin{enumerate}[label={\roman*)}]
+    \item $e\in M$ per Defintion von $M$
+    \item $S(k)$ existiert für alle $k\in M$ und ist \underline{eindeutig}.
+    \setcounter{enumii}{3}
+    \item $S(k)=S(\tilde{k})\Longrightarrow k=\tilde{k} \qquad\forall k,\tilde{k} \in M$
+    \setcounter{enumii}{2}
+    \item ist wegen $S(\star)=e$ verletzt.
+  \end{enumerate}
+  \item $(M,e,S)$ soll i), ii), iii) und v) erfüllen.\\
+  Beispiel:\begin{align*}&M=\{e,\star\}\\&S(e)=\star\\&S(\star)=\star\end{align*}
+  \begin{enumerate}[label={\roman*)}]
+    \setcounter{enumii}{3}
+    \item wegen $S(e)=S(\star)=\star$ jedoch $e\neq\star$ verletzt.
+  \end{enumerate}
+  \item $(M,e,S)$ verletzt iv) und v), erfüllt aber i), ii), iii).\\
+  Beispiel:\begin{align*}&M=\{e,\star\,<>\}\\&S(e)=\star\\&S(\star)=\star\\&S(<>)=\star\end{align*}
+  i), ii), iii) offensichtlich erfüllt. iv) nach b) verletzt.\\
+  Sei dazu $X=\{ e,\star \}$. Dann ist $e\in X$, $S(e)=\star \quad \in X$\\
+  Aber, weil $<>\not\in X$ ist $M\not\subset X$. Also v) verletzt.
+\end{enumerate}
