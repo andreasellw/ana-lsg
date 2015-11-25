@@ -20,8 +20,15 @@ Mit letzterem kann man einfach ein Dummy-Dokument mit
 ```
 erzeugen.
 
-### Geladene Packete
+### Dokumenationen der geladenen Packete in [pkg.tex](https://github.com/andreasellw/ana-lsg/blob/master/add/pkg.tex)
+* [fontenc](https://www.ctan.org/pkg/fontenc)
+* [inputenc](https://www.ctan.org/pkg/inputenc)
+* [babel](https://www.ctan.org/pkg/babel)
+* [geometry](https://www.ctan.org/pkg/geometry)
+* [hyperref](https://www.ctan.org/pkg/hyperref)
+* [enumitem](https://www.ctan.org/pkg/enumitem)
 * [amsmath](https://www.ctan.org/pkg/amsmath)
 * [amssymb](https://www.ctan.org/pkg/amssymb)
-* [geometry](https://www.ctan.org/pkg/geometry)
+* [amsthm](https://www.ctan.org/pkg/amsthm)
+* [mathptmx](https://www.ctan.org/pkg/mathptmx)
 
