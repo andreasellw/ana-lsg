@@ -15,6 +15,7 @@ UTF-8 beim editieren und abspeichern der .tex-Dateien beachten.
 * [amssymb](https://www.ctan.org/pkg/amssymb)
 * [amsthm](https://www.ctan.org/pkg/amsthm)
 * [mathptmx](https://www.ctan.org/pkg/mathptmx)
+* [datetime2](https://www.ctan.org/pkg/datetime2)
 
 ### Output-Ort bestimmen
 Mit folgendem Terminal Befehl kann der Output-Ordner bestimmt werden `pdflatex -output-directory=output ana-lsg.tex`
