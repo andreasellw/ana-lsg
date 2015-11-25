@@ -1,39 +1,39 @@
 \chapter{Blatt 04}
 \section{Aufgabe 1}
 \textit{Bemerkung:} Archimedisches Axiom, Bernoulli Ungleichung\\
-\begin{align*}
+\begin{align}
   0<q<1
-\end{align*}
+\end{align}
 zu Zeigen:
-\begin{align*}
+\begin{align}
   \forall \varepsilon >0\quad :\quad\exists N\in\mathbb{N}\quad :\quad q^n<\varepsilon \quad\forall n>N
-\end{align*}
+\end{align}
 Archimedisches Axiom:
-\begin{align*}
+\begin{align}
   \forall \varepsilon >0\quad :\quad\exists N\in\mathbb{N}\quad :\quad0<\frac{1}{\varepsilon}<1+nx,\quad x > 0
-\end{align*}
+\end{align}
 Bernoulli Ungleichung:
-\begin{align*}
+\begin{align}
   (1+x)^n\geq 1+nx \qquad\forall x\geq-1,\quad\forall n\geq0
-\end{align*}
-\begin{align*}
+\end{align}
+\begin{align}
   \frac{1}{\varepsilon}\overset{Ar.}{<}1+nx\overset{Be.}{\leq}(1+x)^n
-\end{align*}
+\end{align}
 Damit
-\begin{align*}
+\begin{align}
   \frac{1}{\varepsilon}<(1+x)^n \Leftrightarrow \frac{1}{(1+x)^n}<\varepsilon
-\end{align*}
+\end{align}
 Setze $x:= \frac{1}{q}-1$, dann folgt
-\begin{align*}
+\begin{align}
   \frac{1}{(\frac{1}{q})^n}<\varepsilon \Leftrightarrow q^n<\varepsilon\qed
-\end{align*}
+\end{align}
 \section{Aufgabe 2}
 \textit{Bemerkung:} Cantor Diagonalargument\\
 zu a)\\
 Sei $M_j$ $\forall j \in \mathbb{N}$ eine abzählbare Menge. Dann ist zu zeigen: $\bigcup\limits_{j \in \mathbb{N}}M_j$ ist abzählbar. Da $M_j$ abzählbar, existiert für jedes $j\in\mathbb{N}$ bijektive Abbildung $\rho_j:\mathbb{N}\rightarrow M_j$.\\
 Nummeriere Elemente von $M_j$ wie folgt:
-\begin{align*}
+\begin{align}
   m_{1}^{j}\quad : \quad \rho_{j}(1) ... m_{n}^{j}:= \rho_{j}(n)
-\end{align*}
+\end{align}
 \section{Aufgabe 3}
 \section{Aufgabe 4}

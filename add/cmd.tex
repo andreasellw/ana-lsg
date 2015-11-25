@@ -1,3 +1,15 @@
-\newcommand{\leadingzero}[1]{\ifnum #1<10 0\the#1\else\the#1\fi}            % führende Null
-\newcommand{\ddmmyyyy}{\leadingzero{\day}.\leadingzero{\month}.\the\year}   % DD.MM.YYYY
-\RedeclareSectionCommand[beforeskip=0pt,afterskip=1\baselineskip plus .1\baselineskip minus .167\baselineskip]{chapter} % Kein großer Abstand vor Chapter
+% Kein großer Abstand vor Chapter
+\RedeclareSectionCommand[beforeskip=0pt,afterskip=1\baselineskip plus .1\baselineskip minus .167\baselineskip]{chapter}
+% Number equations within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
+\numberwithin{equation}{section}
+% Number figures within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
+\numberwithin{figure}{section}
+% Number tables within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
+\numberwithin{table}{section}
+% führende Null
+\newcommand{\leadingzero}[1]{\ifnum #1<10 0\the#1\else\the#1\fi}
+% DD.MM.YYYY
+\newcommand{\ddmmyyyy}{\leadingzero{\day}.\leadingzero{\month}.\the\year}
+
+% Removes all indentation from paragraphs - comment this line for an assignment with lots of text
+%\setlength\parindent{0pt}
