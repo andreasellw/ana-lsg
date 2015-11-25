@@ -22,4 +22,6 @@ erzeugen.
 
 ### Geladene Packete
 * [amsmath](https://www.ctan.org/pkg/amsmath)
+* [amssymb](https://www.ctan.org/pkg/amssymb)
+* [geometry](https://www.ctan.org/pkg/geometry)
 
