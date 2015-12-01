@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.11.14)  25 NOV 2015 17:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.11.14)  1 DEC 2015 23:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1005,32 +1005,98 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 11.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 11.
-)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 13.
+) (./ana-b06.tex
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 13.
+(babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 13.
+(babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 13.
+(babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 13.
+(babel)             in language  on input line 1.
  [10
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 13.
+chapter 6.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 2.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 2.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 3.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 3.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 4.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 4.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 5.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 5.
+) (./ana-b07.tex
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 1.
+ [11
+
+]
+chapter 7.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 2.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 2.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 3.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 3.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 4.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 4.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 5.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 5.
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 15.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 15.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 15.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 15.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 15.
+ [12
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 15.
  (output/ana-lsg.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 13.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 13.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 15.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 15.
 Package rerunfilecheck Info: File `ana-lsg.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 13.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 15.
  ) 
 Here is how much of TeX's memory you used:
- 10250 strings out of 493054
- 156112 string characters out of 6134759
+ 10284 strings out of 493054
+ 156506 string characters out of 6134759
  341221 words of memory out of 5000000
- 13457 multiletter control sequences out of 15000+600000
+ 13473 multiletter control sequences out of 15000+600000
  47310 words of font info for 90 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,15n,66p,951b,493s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1046,10 +1112,10 @@ l/texlive/2015/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2
 ist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/
 type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/
 times/utmri8a.pfb>
-Output written on output/ana-lsg.pdf (10 pages, 110626 bytes).
+Output written on output/ana-lsg.pdf (12 pages, 112524 bytes).
 PDF statistics:
- 353 PDF objects out of 1000 (max. 8388607)
- 326 compressed objects within 4 object streams
- 132 named destinations out of 1000 (max. 500000)
- 209 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 413 PDF objects out of 1000 (max. 8388607)
+ 384 compressed objects within 4 object streams
+ 144 named destinations out of 1000 (max. 500000)
+ 289 words of extra memory for PDF output out of 10000 (max. 10000000)
 
