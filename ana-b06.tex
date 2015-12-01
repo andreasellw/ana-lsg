@@ -1,5 +1,46 @@
 \chapter{Blatt 06}
 \section{Aufgabe 1}
 \section{Aufgabe 2}
+\begin{flalign}
+  a_n=\frac{2n+1}{n+2},\quad b_n=1+\frac{(-1)^n}{n}+\frac{1}{n^2}\qquad\forall n \in \mathbb{N} &&&
+\end{flalign}
+\begin{enumerate}[label={\alph*)}]
+  \item
+  \begin{flalign}
+    &a_1=1, \quad a_2=\frac{5}{4}, \quad a_3=\frac{7}{5}, \quad a_4=\frac{9}{6}, \quad a_5=\frac{11}{7}&& \nonumber \\
+    &b_1=1, \quad b_2=\frac{7}{4}, \quad b_3=\frac{7}{9}, \quad b_4=\frac{21}{16}, \quad b_5=\frac{21}{25}&& \nonumber
+  \end{flalign}
+  \item
+  Da $b_1<b_2$ aber $b_2>b_3$ kann $b_n$ nicht monoton sein.\\
+  $a_n$ monoton steigend?
+  \begin{flalign}
+    a_n<a_{n+1}\qquad \forall n &&&
+  \end{flalign}
+  Es gilt:
+  \begin{flalign}
+    &a_n=\frac{2n+1}{n+2}=\frac{2(n+1)-3}{n+2}=2- \frac{3}{n+2} \Longrightarrow a_{n+1}=2- \frac{3}{n+3} && \\
+    &n+2<n+3 \Longrightarrow \frac{1}{n+2}>\frac{1}{n+3} \Longrightarrow -\frac{1}{n+2}<-\frac{1}{n+3} \Longrightarrow 2-\frac{3}{n+2}<2-\frac{3}{n+3}\qquad \forall n &&
+  \end{flalign}
+  \item
+  Gibt es $c_a, C_a, c_b, C_b \in \mathbb{R} : \quad c_a\leq a_n \leq C_a$\\
+  $a_n \geq 0 \quad \forall n \in \mathbb{N}$, also $c_a=0$.\\
+  Außerdem $a_n=2-\frac{3}{n+2}$ auch $a_n\leq 2\quad \forall n$\\ $\Longrightarrow C_a=2$\\
+  Es gilt:
+  \begin{flalign}
+    b_n &=1+ \frac{(-1)^n}{n}+\frac{1}{n^2}=\frac{n^2+(-1)^n\cdot n+1}{n^2} && \nonumber \\
+    &\geq\frac{n^2-n+1}{n^2}\geq \frac{n^2-2n+1}{n^2}= \frac{(n-1)^2}{n^2}\geq 0 \qquad \forall n \in \mathbb{N} &&
+  \end{flalign}
+  $\Longrightarrow c_b=0$\\
+  Außerdem $\frac{1}{n}\leq 1$, $\frac{1}{n^2}\leq 1$.\\
+  Also
+  \begin{flalign}
+    b_n &=1+ \frac{(-1)^n}{n}+\frac{1}{n^2}\leq 1+ \frac{1}{n}+\frac{1}{n^2}\leq 3 &&& \nonumber
+  \end{flalign}
+  $\Longrightarrow C_b=3$\\
+  \item
+  Konvergenz?\\
+  $a_n$: monotone Folgen und beschränkt $\overset{VL}{\Longrightarrow}$ konvergent.\\
+  $b_n$: $\frac{1}{n}$, $\frac{1}{n^2}$ sind Nullfolgen und wegen ...
+\end{enumerate}
 \section{Aufgabe 3}
 \section{Aufgabe 4}
