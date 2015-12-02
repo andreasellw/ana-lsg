@@ -35,4 +35,4 @@ Mit letzterem kann man einfach ein Dummy-Dokument mit
 erzeugen.
 
 ### neues Blatt
-Ein neues Blatt einfach nach der Vorlage [ana-bXX.tex](https://github.com/andreasellw/ana-lsg/blob/master/add/pkg.tex) erstellen. Und am Schluß die zugehörige Zeile in die ana-lsg.tex Datei einfügen.
+Ein neues Blatt einfach nach der Vorlage [neuesblatt.tex](https://github.com/andreasellw/ana-lsg/blob/master/add/neuesblatt.tex) erstellen. Und am Schluß die zugehörige Zeile in die ana-lsg.tex Datei einfügen.
