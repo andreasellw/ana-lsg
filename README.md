@@ -16,6 +16,7 @@ UTF-8 beim editieren und abspeichern der .tex-Dateien beachten.
 * [amsthm](https://www.ctan.org/pkg/amsthm)
 * [mathptmx](https://www.ctan.org/pkg/mathptmx)
 * [datetime2](https://www.ctan.org/pkg/datetime2)
+* [setspace](https://www.ctan.org/pkg/setspace)
 
 ### Output-Ort bestimmen
 Mit folgendem Terminal Befehl kann der Output-Ordner bestimmt werden `pdflatex -output-directory=output ana-lsg.tex`
@@ -32,3 +33,6 @@ Mit letzterem kann man einfach ein Dummy-Dokument mit
 \Blinddocument
 ```
 erzeugen.
+
+### neues Blatt
+Ein neues Blatt einfach nach der Vorlage [ana-bXX.tex](https://github.com/andreasellw/ana-lsg/blob/master/add/pkg.tex) erstellen. Und am Schluß die zugehörige Zeile in die ana-lsg.tex Datei einfügen.
