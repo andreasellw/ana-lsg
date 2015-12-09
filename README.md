@@ -4,6 +4,29 @@ Dies ist eine Mitschrift des Übungsbetriebs der Vorlesung [Analysis I für Inf
 ### Kodierung
 UTF-8 beim editieren und abspeichern der .tex-Dateien beachten.
 
+
+### pdflatex
+```tex
+$ pdflatex -interaction=nonstopmode -output-directory=output -synctex=1 ana-lsg.tex
+```
+
+### .tex-Dateien beobachten und automatisch .pdf aktualisieren
+
+Zuerst muss Homebrew installiert werden.
+Dann npm und gulp.
+
+- [Homebrew](http://brew.sh/)
+- `$ brew install node`
+- `$ npm install -g gulp`
+
+Dann einfach dieses Repository herunterladen & entpacken.
+Lokal im Ordner von unserem Repository Gulp (local) installieren. Und Gulp watch starten. Sobald nun eine .tex-Datei verändert & abgespeichert wird, wird der pdflatex Befehl ausgeführt.
+
+- `$ npm install`
+- `$ gulp watch`
+
+gulp watch kann via CTRL+C wieder beendet werden.
+
 ### Dokumenationen der geladenen Packete in [pkg.tex](https://github.com/andreasellw/ana-lsg/blob/master/add/pkg.tex)
 * [fontenc](https://www.ctan.org/pkg/fontenc)
 * [inputenc](https://www.ctan.org/pkg/inputenc)
@@ -17,9 +40,6 @@ UTF-8 beim editieren und abspeichern der .tex-Dateien beachten.
 * [mathptmx](https://www.ctan.org/pkg/mathptmx)
 * [datetime2](https://www.ctan.org/pkg/datetime2)
 * [setspace](https://www.ctan.org/pkg/setspace)
-
-### Output-Ort bestimmen
-Mit folgendem Terminal Befehl kann der Output-Ordner bestimmt werden `pdflatex -output-directory=output ana-lsg.tex`
 
 ### Layout testen
 Folgende Packete sind für das Testen des Layouts hilfreich
@@ -36,12 +56,3 @@ erzeugen.
 
 ### neues Blatt
 Ein neues Blatt einfach nach der Vorlage [neuesblatt.tex](https://github.com/andreasellw/ana-lsg/blob/master/neuesblatt.tex) erstellen. Und am Schluß die zugehörige Zeile in die ana-lsg.tex Datei einfügen.
-
-### Watch .tex-files via Gulp and run pdflatex automatically.
-- Install HomeBrew
-- `$ brew install node` install node and npm
-- `$ npm install -g gulp` install Gulp globally
-- download this repository
-- `$ cd THIS-FOLDER`
-- `$ npm install` install gulp & gulp-shell locally
-- `$ gulp watch` start gulp watch task
