@@ -36,3 +36,11 @@ erzeugen.
 
 ### neues Blatt
 Ein neues Blatt einfach nach der Vorlage [neuesblatt.tex](https://github.com/andreasellw/ana-lsg/blob/master/neuesblatt.tex) erstellen. Und am Schluß die zugehörige Zeile in die ana-lsg.tex Datei einfügen.
+
+### Watch .tex-files via Gulp and run pdflatex automatically.
+- Install HomeBrew
+- `$ brew install node` install node and npm
+- `$ npm install -g gulp` install Gulp globally
+- download this repository & open your terminal & go this repositorys folder
+- `$ npm install` install gulp & gulp-shell locally
+- `$ gulp watch` start gulp watch task
