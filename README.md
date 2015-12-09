@@ -41,6 +41,7 @@ Ein neues Blatt einfach nach der Vorlage [neuesblatt.tex](https://github.com/and
 - Install HomeBrew
 - `$ brew install node` install node and npm
 - `$ npm install -g gulp` install Gulp globally
-- download this repository & open your terminal & go this repositorys folder
+- download this repository
+- `$ cd THIS-FOLDER`
 - `$ npm install` install gulp & gulp-shell locally
 - `$ gulp watch` start gulp watch task
