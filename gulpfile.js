@@ -3,7 +3,7 @@ var shell = require('gulp-shell');
 
 gulp.task('latex', function() {
     return gulp.src('ana-lsg.tex')
-    .pipe(shell(["pdflatex -interaction=nonstopmode -output-directory=output <%= file.path %>"]).on('error', function(){}))
+    .pipe(shell(["pdflatex -interaction=nonstopmode -output-directory=output -synctex=1 <%= file.path %>"]).on('error', function(){}))
     .pipe(gulp.dest('./'))
 });
 
