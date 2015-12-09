@@ -1,0 +1,23 @@
+{
+  "name": "ana-lsg",
+  "version": "1.0.0",
+  "description": "Dies ist eine Mitschrift des Übungsbetriebs der Vorlesung [Analysis I für Informatiker und Statistiker](http://www.mathematik.uni-muenchen.de/~nissen/analysis2015/) im Wintersemester 2015/16 bei Prof. Dr. Peter Pickl. Ohne Anspruch auf Richtigkeit oder Vollständigkeit.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreasellw/ana-lsg.git"
+  },
+  "author": "andreasellw",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andreasellw/ana-lsg/issues"
+  },
+  "homepage": "https://github.com/andreasellw/ana-lsg#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-shell": "^0.5.1"
+  }
+}
