@@ -10,7 +10,7 @@ UTF-8 beim editieren und abspeichern der .tex-Dateien beachten.
 $ pdflatex -interaction=nonstopmode -output-directory=output -synctex=1 ana-lsg.tex
 ```
 
-### .tex-Dateien beobachten und automatisch .pdf aktualisieren
+### .tex-Dateien beobachten und automatisch das PDF aktualisieren
 
 Zuerst muss Homebrew installiert werden.
 Dann npm und gulp.
